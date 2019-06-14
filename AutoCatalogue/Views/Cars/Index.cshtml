@@ -1,0 +1,61 @@
+﻿@model List<AutoCatalogue.ViewModels.CarViewModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<span style="padding:1em;">
+    @Html.ActionLink("Create New", "Create")
+</span>
+<span style="padding:1em;">
+    @Html.ActionLink("Go to Makes", "Index", "Makes")
+</span>
+<span style="padding:1em;">
+    @Html.ActionLink("Go to Types", "Index", "Types")
+</span>
+<table class="table">
+    <tr>
+        <th>
+            Model
+        </th>
+        <th>
+            Release Year
+        </th>
+        <th>
+            Horse Power
+        </th>
+        <th>
+            Make
+        </th>
+        <th>
+            Type
+        </th>
+        <th></th>
+    </tr>
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Model)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ReleaseYear)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HorsePower)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Make.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Type.Name)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id = item.CarId }) |
+            @Html.ActionLink("Details", "Details", new { id = item.CarId }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.CarId })
+        </td>
+    </tr>
+}
+</table>

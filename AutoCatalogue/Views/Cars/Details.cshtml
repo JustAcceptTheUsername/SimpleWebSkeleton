@@ -1,0 +1,68 @@
+﻿@model AutoCatalogue.ViewModels.CarViewModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Car</h4>
+    <hr />
+    <dl class="dl-horizontal">
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Model)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Model)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ReleaseYear)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ReleaseYear)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HorsePower)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HorsePower)
+        </dd>
+
+        <dt>
+            Make
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Make.Name)
+        </dd>
+        <dd>
+            @Html.DisplayFor(model => model.Make.Description)
+        </dd>
+        <dd>
+            @Html.DisplayFor(model => model.Make.Country)
+        </dd>
+
+        <dt>
+            Type
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Type.Name)
+        </dd>
+        <dd>
+            @Html.DisplayFor(model => model.Type.Description)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.CarId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

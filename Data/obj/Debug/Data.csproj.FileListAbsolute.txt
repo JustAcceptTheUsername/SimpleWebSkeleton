@@ -1,0 +1,12 @@
+C:\Users\Nookie\source\repos\AutoCatalogue\Data\bin\Debug\Data.exe.config
+C:\Users\Nookie\source\repos\AutoCatalogue\Data\bin\Debug\Data.exe
+C:\Users\Nookie\source\repos\AutoCatalogue\Data\bin\Debug\Data.pdb
+C:\Users\Nookie\source\repos\AutoCatalogue\Data\bin\Debug\EntityFramework.dll
+C:\Users\Nookie\source\repos\AutoCatalogue\Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Nookie\source\repos\AutoCatalogue\Data\bin\Debug\EntityFramework.xml
+C:\Users\Nookie\source\repos\AutoCatalogue\Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Nookie\source\repos\AutoCatalogue\Data\obj\Debug\Data.csprojAssemblyReference.cache
+C:\Users\Nookie\source\repos\AutoCatalogue\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+C:\Users\Nookie\source\repos\AutoCatalogue\Data\obj\Debug\Data.csproj.CopyComplete
+C:\Users\Nookie\source\repos\AutoCatalogue\Data\obj\Debug\Data.exe
+C:\Users\Nookie\source\repos\AutoCatalogue\Data\obj\Debug\Data.pdb
